@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>AI PPT</title>
+    <style>body{font-family:Arial;padding:12px;width:300px}button{width:100%}</style>
+  </head>
+  <body>
+    <h4>AI PPT for Canva</h4>
+    <p><button id="openOptions">設定後端</button></p>
+    <p><a href="#" id="openCanva">打開 Canva</a></p>
+    <script>
+      document.getElementById('openOptions').addEventListener('click', () => { chrome.runtime.openOptionsPage(); });
+      document.getElementById('openCanva').addEventListener('click', () => { chrome.tabs.create({ url: 'https://www.canva.com/' }); });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+nohup: ignoring input
+Starting mock server on http://127.0.0.1:8000
+INFO:     Will watch for changes in these directories: ['/workspaces/ppt']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [34666] using WatchFiles
+INFO:     Started server process [34671]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:59896 - "POST /api/generate-outline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54576 - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+WARNING:  WatchFiles detected changes in 'backend/app/proxy.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [34671]
+WARNING:  WatchFiles detected changes in 'backend/app/proxy.py'. Reloading...
+INFO:     Started server process [41655]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [41697]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/app/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [41697]
+INFO:     Started server process [41756]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:44954 - "POST /api/proxy/fetch HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43052 - "POST /api/proxy/fetch HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [41756]
+INFO:     Stopping reloader process [34666]

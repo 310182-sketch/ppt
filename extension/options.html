@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>AI PPT Options</title>
+    <style>body{font-family:Arial;padding:12px}label{display:block;margin-top:8px}</style>
+  </head>
+  <body>
+    <h3>設定</h3>
+    <label>Backend URL:<br/><input id="backendUrl" style="width:100%"/></label>
+    <button id="save">儲存</button>
+    <div id="msg" style="margin-top:8px;color:green"></div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        chrome.storage.sync.get(['backendUrl'], (items) => { document.getElementById('backendUrl').value = items.backendUrl || 'http://localhost:8000'; });
+        document.getElementById('save').addEventListener('click', () => {
+          const v = document.getElementById('backendUrl').value;
+          chrome.storage.sync.set({ backendUrl: v }, () => { document.getElementById('msg').innerText = '已儲存'; });
+        });
+      });
+    </script>
+  </body>
+</html>

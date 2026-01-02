@@ -1,0 +1,37 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/workspaces/ppt']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [42540] using WatchFiles
+INFO:     Started server process [42554]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:37488 - "POST /api/proxy/fetch HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:38778 - "POST /api/proxy/fetch HTTP/1.1" 403 Forbidden
+WARNING:  WatchFiles detected changes in 'backend/app/canva_oauth.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [42554]
+WARNING:  WatchFiles detected changes in 'backend/app/canva_oauth.py'. Reloading...
+INFO:     Started server process [45135]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [45138]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/app/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [45138]
+INFO:     Started server process [45166]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/app/proxy.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [45166]
+INFO:     Started server process [45802]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

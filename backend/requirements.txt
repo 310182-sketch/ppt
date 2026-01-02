@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-pptx
+Pillow
+httpx
+pydantic
+python-multipart
+# Optional: google-cloud-storage or boto3 for production
+# google-cloud-storage
+# boto3
